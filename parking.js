@@ -126,8 +126,6 @@ export class Parking {
             hourlyCharge = 60
         } else if ( size == 2 ) {
             hourlyCharge = 100
-        } else {
-            hourlyCharge = 1000
         }
 
         // For parking that exceeds 24 hours, every full 24 hour chunk is charged 5,000 pesos regardless of parking slot.
